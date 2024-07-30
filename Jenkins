@@ -1,6 +1,8 @@
 Jenkins- CI/CD
 Get the error code
-difference between curl and wget command
+difference between curl and wget command?
+-Curl: CURL uploads and downloads resources
+-wget: This command is used to retrieve content from the specified URL.
 --------
 24-07-24
 -Architrecture of Jenkins:-
