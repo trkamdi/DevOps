@@ -14,7 +14,7 @@ Absent for 2 days - 25, 26 July
 ------
 29-07-24
 Jenkins Pipeline- https://www.jenkins.io/doc/book/pipeline/
-Plugins- git, Github, pipelines, stage view.
+Plugins- git, Github, pipelines, stage view, maven pipeline.
 difference between declaritive and scripted.
 What is crone job.
 --------------------
