@@ -1,8 +1,17 @@
 git cheet commands, jenkins commands. basic questions on both.
 
 05-08-24
-Docker - 
+Docker -
+1. Virtualization - is use to create multiple server on top of our physical server
+
+2. Container- A container is a standard unit of software that packages up code and all its dependencies so the application runs quickly and reliably from one computing environment to another. A Docker container image is a lightweight, standalone, executable package of software that includes everything needed to run an application: code, runtime, system tools, system libraries and settings.
+Cycle how container come - physical server--> virtual server-->Containers
+- Virtual machine is more secure than conatiners because it has full OS with full i
+solation where as Containers don't have full OS and they do not there full os.
+
+3. Why Contanrisation-
+
+
 -difference between container and instance?
 -what, why advantages of conatiner.
 -install docker on instance.
-
