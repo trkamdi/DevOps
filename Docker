@@ -9,6 +9,7 @@ Cycle how container come - physical server--> virtual server-->Containers
 - Virtual machine is more secure than conatiners because it has full OS with full i
 solation where as Containers don't have full OS and they do not there full os.
 
+Containers- it is a package or collection of application, application libraries and system dependencies.
 3. Why Contanrisation-
 
 
