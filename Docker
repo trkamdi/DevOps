@@ -16,3 +16,9 @@ Containers- it is a package or collection of application, application libraries 
 -difference between container and instance?
 -what, why advantages of conatiner.
 -install docker on instance.
+---------------------------------------------------------------------
+06-08-24
+Architrecture of Docker- Docker client, docker deamon, 
+-commands - docker run service, docker ps -a, docker inspect id, docker build
+
+-git remote -v, git master commands for git.
