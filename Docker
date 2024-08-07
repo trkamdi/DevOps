@@ -27,3 +27,4 @@ Architrecture of Docker- Docker client, docker deamon,
 07-08-24
 Docker Images?
 -how to write Docker Image.
+-difference between CMD and RUN.
