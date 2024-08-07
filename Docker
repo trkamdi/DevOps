@@ -22,3 +22,8 @@ Architrecture of Docker- Docker client, docker deamon,
 -commands - docker run service, docker ps -a, docker inspect id, docker build
 
 -git remote -v, git master commands for git.
+
+------------------------------------------------
+07-08-24
+Docker Images?
+-how to write Docker Image.
