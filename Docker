@@ -28,3 +28,4 @@ Architrecture of Docker- Docker client, docker deamon,
 Docker Images?
 -how to write Docker Image.
 -difference between CMD and RUN.
+=RUN sets up the image, while CMD defines what happens when you run a container from that image!
