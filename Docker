@@ -13,7 +13,10 @@ Containers- it is a package or collection of application, application libraries 
 3. Why Contanrisation-
 
 
--difference between container and instance?
+-difference between container and (VM)instance?
+Ans- 1.container  consume minimum disk space where as VM consume large disk space.
+2.which allow container to boot up faster and Vm ot.
+3.container has less isolation as it shares more resources and VM has complete isolation, vm dont underly on common OS.
 -what, why advantages of conatiner.
 -install docker on instance.
 ---------------------------------------------------------------------
@@ -29,3 +32,13 @@ Docker Images?
 -how to write Docker Image.
 -difference between CMD and RUN.
 =RUN sets up the image, while CMD defines what happens when you run a container from that image!
+
+
+----------------------
+08-08-24
+Commands-
+-docker ps -a
+-docker run -it centos bash
+-cat /etc/*release* - version of the application
+-docker run -d ubuntu sleep 20
+-docker rm 345 xoe 34e  = container id is this and will deleted at a time.
