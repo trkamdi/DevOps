@@ -43,6 +43,11 @@ Commands-
 -cat /etc/*release* - version of the application
 -docker run -d(detach mode) ubuntu sleep 20
 -docker rm 345 xoe 34e  = container id is this and will deleted at a time.
+-docker inspect Contaiener ID
+-docker run -p 80:8000 tejascloud/webapp -porting command
+
+Advanced Command:
+
 -Difference between Docker run and Docker Pull
 Ans- docker pull -Useful when you want to download an image without creating a container.
 -docker run= Creates and starts a new container, pulling the image if needed- docker run -d --name mycontainer nginx.
