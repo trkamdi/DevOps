@@ -40,11 +40,13 @@ Docker Images?
 Commands-
 -docker ps -a
 -docker run -it centos bash
--cat /etc/*release* - version of the application
+-docker run tomcat cat /etc/*release* - version of the application
 -docker run -d(detach mode) ubuntu sleep 20
 -docker rm 345 xoe 34e  = container id is this and will deleted at a time.
 -docker inspect Contaiener ID
 -docker run -p 80:8000 tejascloud/webapp -porting command
+-docker build -t(custom tag) .(current directory)  .
+
 
 Advanced Command:
 
