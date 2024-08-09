@@ -51,3 +51,11 @@ Advanced Command:
 -Difference between Docker run and Docker Pull
 Ans- docker pull -Useful when you want to download an image without creating a container.
 -docker run= Creates and starts a new container, pulling the image if needed- docker run -d --name mycontainer nginx.
+
+
+----------------------------------------------
+09-08-24
+H.w what are the services which use for terraform, ansible, jenkins, git, github, Docker.
+-Docker -https://medium.com/@kmdkhadeer/docker-get-started-9aa7ee662cea
+-how to give permanant number to linux file.
+-how to delete content from the file.
