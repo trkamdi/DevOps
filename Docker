@@ -20,6 +20,7 @@ Ans- 1.container  consume minimum disk space where as VM consume large disk spac
 3.container has less isolation as it shares more resources and VM has complete isolation, vm dont underly on common OS.
 -what, why advantages of conatiner.
 -install docker on instance.
+
 ---------------------------------------------------------------------
 06-08-24
 Architrecture of Docker- Docker client, docker deamon, 
@@ -57,7 +58,13 @@ Ans- docker pull -Useful when you want to download an image without creating a c
 
 ----------------------------------------------
 09-08-24
-H.w what are the services which use for terraform, ansible, jenkins, git, github, Docker.
+H.w what are the services which use for 
+-terraform- AWS CloudFormation -  allows you to define and provision AWS infrastructure and applications in a declarative manner.
+-ansible- that helps you configure and operate applications in the cloud using either Puppet or Chef. 
+-jenkins- AWS Codepipeline
+-git- CodeCommit
+-github- CodeCommit
+-Docker- Amazon ECS
 -Docker -https://medium.com/@kmdkhadeer/docker-get-started-9aa7ee662cea
 -how to give permanant number to linux file.
 -how to delete content from the file.
