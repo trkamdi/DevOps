@@ -6,3 +6,43 @@ Docker -
 -what, why advantages of conatiner.
 -install docker on instance.
 
+https://medium.com/@KANIKA_VERMA/docker-practice-questions-set-2-8c11e3225983
+Solving Question on Images:-
+Quue1.Create an image with the following instructions
+
+-#Use the base image
+FROM centos:7
+
+#Set the maintainer information
+MAINTAINER: "Tajesh Kamdi"
+
+#Install Apache HTTP server
+RUN yum install -y httpd
+
+#create a sample index.html  file
+RUN echo "This website is running in container." > var/www/html/website.html
+
+#Expose port 80 for HTTP traffic
+EXPOSE 80
+
+ENV NAME=Docker 
+
+ENTRYPOINT ['httpd']
+
+CMD ["-DFOREGROUND"]
+
+Ans:- Error-  ERROR [3/4] RUN yum install -y httpd                                                                                                                                            1.2s
+------
+ > [3/4] RUN yum install -y httpd:
+0.865 Loaded plugins: fastestmirror, ovl
+1.100 Determining fastest mirrors
+1.131 Could not retrieve mirrorlist http://mirrorlist.centos.org/?release=7&arch=x86_64&repo=os&infra=container error was
+1.131 14: curl#6 - "Could not resolve host: mirrorlist.centos.org; Unknown error"
+
+
+
+
+
+
+
+
