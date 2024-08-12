@@ -33,6 +33,9 @@ Architrecture of Docker- Docker client, docker deamon,
 Docker Images?
 -how to write Docker Image.
 -difference between CMD and RUN.
+-RUN. Mainly used to build images and install applications and packages, RUN builds a new layer over an existing image by committing the results.
+CMD. -Sets default parameters that can be overridden from the Docker Command Line Interface (CLI) when a container is running.
+ENTRYPOINT. -Default parameters that cannot be overridden when Docker Containers run with CLI parameters.
 =RUN sets up the image, while CMD defines what happens when you run a container from that image!
 
 
