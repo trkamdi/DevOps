@@ -19,3 +19,15 @@ s anf offering stronger isolation.
 2. Portability: Containers are designed to be portable and can run on any system with a compatible host operating system. VMs are less portable as they need a compatible hypervisor to run.
 
 3. Security: VMs provide a higher level of security as each VM has its own operating system and can be isolated from the host and other VMs. Containers provide less isolation, as they share the host operating system.
+
+
+Que3. To delete in single command?
+Ans- docker image prune
+docker volume prune
+docker system prune
+
+
+Que4. What is a Dockerfile and how it is used in Docker?
+Ans- A Dockerfile is a text file that contains commands or instructions to build a Docker image.
+It can specify the base image, the files to add to the container, 
+the commands to run during the build process, and the command to run the container starts.
