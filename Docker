@@ -50,7 +50,7 @@ Commands-
 -docker inspect Contaiener ID
 -docker run -p 80:8000 tejascloud/webapp -porting command
 -docker build -t(custom tag) .(current directory)  .
-
+-docker image prune
 
 Advanced Command:
 
