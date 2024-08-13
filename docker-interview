@@ -1,0 +1,21 @@
+Que1. Can you describe a situation where you used Docker to solve a specific problem?
+Ans- yes. In a recent project, we faced inconsistency issues between development and pro
+duction environments, leading to deployment errors. To solve this we adopted Docker. And
+deployed the application with Kubernetes.
+
+Que2. Can you explain how Docker container is differ from virtual machines?
+Ans- Docker containers share the host OS kernel, making them lightweight and efficent. T
+hey provide process-level isolation and package applications with their dependencies.
+-Docker container- A container is a standard unit of software that packages up code and all its dependencies so the application runs quickly and reliably from one computing environment to another.
+-A container is a bundle of Application, Application libraries required to run your application and the minimum system dependencies.
+
+-Virtual machine in contrast run full guest OSS on a hypervisor, consuming more resource
+s anf offering stronger isolation.
+
+    Difference between Containers and VM
+
+1. Resource Utilization: Containers share the host operating system kernel, making them lighter and faster than VMs. VMs have a full-fledged OS and hypervisor, making them more resource-intensive.
+
+2. Portability: Containers are designed to be portable and can run on any system with a compatible host operating system. VMs are less portable as they need a compatible hypervisor to run.
+
+3. Security: VMs provide a higher level of security as each VM has its own operating system and can be isolated from the host and other VMs. Containers provide less isolation, as they share the host operating system.
