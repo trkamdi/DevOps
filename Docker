@@ -87,3 +87,9 @@ Docker Volume:- https://docs.docker.com/engine/storage/volumes/
 -docker exec -it devtest /bin/bash
 -file will be there /app name and file will be there which we create 
 -on /var/lib/docker/volumes/my_vol2/_data
+
+---------------------------------------------------------------------------------------
+14-08-24
+Docker Volume-
+1.use a read-only volume
+2.backup restore and migrate data volumes.-  https://medium.com/munchy-bytes/backup-and-restore-docker-containers-a-quick-guide-640b1b135207
