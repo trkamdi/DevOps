@@ -51,7 +51,7 @@ Commands-
 -docker run -p 80:8000 tejascloud/webapp -porting command
 -docker build -t(custom tag) .(current directory)  .
 -docker image prune
-
+-docker system df -v - shows the images and there space consumption
 Advanced Command:
 
 -Difference between Docker run and Docker Pull
