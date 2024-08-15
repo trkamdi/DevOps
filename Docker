@@ -52,6 +52,8 @@ Commands-
 -docker build -t(custom tag) .(current directory)  .
 -docker image prune
 -docker system df -v - shows the images and there space consumption
+
+-Actual path where the images is saved by them -ls /var/lib/docker/overlay2
 Advanced Command:
 
 -Difference between Docker run and Docker Pull
