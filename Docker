@@ -95,3 +95,10 @@ Docker Volume:- https://docs.docker.com/engine/storage/volumes/
 Docker Volume-
 1.use a read-only volume
 2.backup restore and migrate data volumes.-  https://medium.com/munchy-bytes/backup-and-restore-docker-containers-a-quick-guide-640b1b135207
+
+---------------------------------------------------------------------------------------
+16-08-24
+Networking-
+Endpoint in networking
+-How many types of reserved Ip addresses are there in Cloud(5 are there)?
+-1.Gateway Ip
