@@ -99,6 +99,7 @@ Docker Volume-
 ---------------------------------------------------------------------------------------
 16-08-24
 Networking-
+-docker network ls(bridge, none, host)
 Endpoint in networking
 -How many types of reserved Ip addresses are there in Cloud(5 are there)?
 -1.Gateway Ip
