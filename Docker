@@ -52,7 +52,7 @@ Commands-
 -docker build -t(custom tag) .(current directory)  .
 -docker image prune
 -docker system df -v - shows the images and there space consumption
-
+-docker logs -t image name
 -Actual path where the images is saved by them -ls /var/lib/docker/overlay2
 Advanced Command:
 
