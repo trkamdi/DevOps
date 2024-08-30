@@ -2,8 +2,10 @@
 Topics to stufy in kubernetes: GCP kubernetes engine
 1.Architrecture of kuber.- https://medium.com/cloud-native-daily/a-comprehensive-kubernetes-overview-unleash-the-power-of-kubernetes-dc3e2e3d5630
 2.Pods- kubctl get ns
-3.
-4.
+3.Kubernetes consist of 2 main- 1.Several major components comprise the control plane
+-the API server, the scheduler, the controller-manager, and etcd. 
+-These core Kubernetes components ensure containers are running with the necessary resources in sufficient numbers
+4.etcd- a distributed key-value storage system for keeping the cluster state consistent (etcd)
 5.
 6.
 7.
