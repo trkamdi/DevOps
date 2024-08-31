@@ -2,10 +2,32 @@
 Topics to stufy in kubernetes: GCP kubernetes engine
 1.Architrecture of kuber.- https://medium.com/cloud-native-daily/a-comprehensive-kubernetes-overview-unleash-the-power-of-kubernetes-dc3e2e3d5630
 2.Pods- kubctl get ns
+
 3.Kubernetes consist of 2 main- 1.Several major components comprise the control plane
 -the API server, the scheduler, the controller-manager, and etcd. 
+
+a. API Server- the front end of kubernetes control plane, api server updates supports, scalling and other kinds of lifecycle orchestration by
+providing APIs to various type of applications. clients must be able to access API server form outside of the cluster because it serves as gateway.
+
+b. Scheduler- it is responsible for assigning the pods to the worker node according to the availiblity of the resources and contraints.
+it ensures the utilization of resources and distribute the workload across the cluster
+
+c. Control Manager- The controller manager watches over the cluster’s desired state and takes necessary actions to maintain that state.
+
+d. etcd- a distributed key-value storage system for keeping the cluster state consistent (etcd)
+
+Worker Node/ Slave- consist of various component comprise of - kubelet, kube-proxy, container runtime egine, pods.
+
+a.Kubelet- an agent that communicates with the control plane to ensure the containers in a pod are running
+The kubelet ensures that the desired state of the containers, as defined by the master node, is maintained.
+
+b.Kube Proxy: Kube Proxy is responsible for network proxying and load balancing. 
+It enables communication between services and pods by routing network traffic to the appropriate destination, 
+ensuring connectivity within the cluster.
+
+
 -These core Kubernetes components ensure containers are running with the necessary resources in sufficient numbers
-4.etcd- a distributed key-value storage system for keeping the cluster state consistent (etcd)
+4.
 5.
 6.
 7.
