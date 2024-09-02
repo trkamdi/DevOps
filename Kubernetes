@@ -27,6 +27,14 @@ ensuring connectivity within the cluster.
 
 
 -These core Kubernetes components ensure containers are running with the necessary resources in sufficient numbers
+
+-namespace
+2.Deployments: manages the set of pods to run an application workload.
+- insatll tenable application for deployment
+- kubectl create namespace tenable
+-kubectl get ns
+-to check yaml file in cluster
+-kubectl get ns -o yaml tenable
 4.
 5.
 6.
