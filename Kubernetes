@@ -35,6 +35,15 @@ ensuring connectivity within the cluster.
 -kubectl get ns
 -to check yaml file in cluster
 -kubectl get ns -o yaml tenable
+
+
+Commands in Kubernetes:
+1. kubectl get pod
+2. kubectl describe pod podname
+3. kubectl run redis --image=redis
+4. kubectl get pod -o wide (for more details of pod)
+5. kubectl run redis --image=redis --dry-run=client -o > redis-definiton.yml file -(creating yaml file in client site not on actual cluster 
+so we can test it carefully.
 4.
 5.
 6.
