@@ -1,5 +1,6 @@
 23-08-24
 Topics to stufy in kubernetes: GCP kubernetes engine
+pod -ephemeral and 
 1.Architrecture of kuber.- https://medium.com/cloud-native-daily/a-comprehensive-kubernetes-overview-unleash-the-power-of-kubernetes-dc3e2e3d5630
 2.Pods- kubctl get ns
 
@@ -36,6 +37,7 @@ ensuring connectivity within the cluster.
 -to check yaml file in cluster
 -kubectl get ns -o yaml tenable
 
+-netstat -ntulp
 
 Commands in Kubernetes:
 1. kubectl get pod
@@ -47,7 +49,11 @@ so we can test it carefully.
 6. kubectl edit pod change name- use to change name in yaml file for the pods.
 7. kubectl create -f redis-defination.yml
 6.
-7.
+Statefull set and deployments-
+what is mountpath in linux?
+Services: 
+ types of service: 1. clusterIp, 2. NodePort, 3.Loadbalancer
+- kubectl get svc
 8.
 9.
 10.
