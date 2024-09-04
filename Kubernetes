@@ -45,7 +45,7 @@ Commands in Kubernetes:
 5. kubectl run redis --image=redis --dry-run=client -o > redis-definiton.yml file -(creating yaml file in client site not on actual cluster 
 so we can test it carefully.
 6. kubectl edit pod change name- use to change name in yaml file for the pods.
-5.
+7. kubectl create -f redis-defination.yml
 6.
 7.
 8.
