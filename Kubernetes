@@ -54,6 +54,9 @@ what is mountpath in linux?
 Services: 
  types of service: 1. clusterIp, 2. NodePort, 3.Loadbalancer
 - kubectl get svc
+
+Topic- Labels & Selectors:
+Topic - Taints and Tolerance
 8.
 9.
 10.
