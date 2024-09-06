@@ -55,7 +55,7 @@ Services:
  types of service: 1. clusterIp, 2. NodePort, 3.Loadbalancer
 - kubectl get svc
 
-Topic- Labels & Selectors:
+Topic- Labels & Selectors: must get the difference between them
 Topic - Taints(applied on node) and Tolerance(applied on pods)
 8.
 9.
