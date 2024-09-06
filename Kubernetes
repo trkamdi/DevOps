@@ -56,7 +56,7 @@ Services:
 - kubectl get svc
 
 Topic- Labels & Selectors:
-Topic - Taints and Tolerance
+Topic - Taints(applied on node) and Tolerance(applied on pods)
 8.
 9.
 10.
