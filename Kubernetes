@@ -57,6 +57,10 @@ Services:
 
 Topic- Labels & Selectors: must get the difference between them
 Topic - Taints(applied on node) and Tolerance(applied on pods)
+
+09-09-24
+- RBAC and IAM relation.
+- Config maps
 8.
 9.
 10.
