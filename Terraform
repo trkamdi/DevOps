@@ -1,1 +1,6 @@
+What is Terraform?
+- it is a open source tool used to create, define and manage infrastructure using code.
 
+
+terraform plan- shows what changes will be made to your infrastructure.
+terraform apply:- actually applies those changes and builds the updates your infrastructure.
