@@ -13,3 +13,9 @@ Terraform state file:- https://spacelift.io/blog/terraform-state
 Task:- create IAM using terraform
 
 
+
+04-10-24 
+imp topic
+provisioners of Terraform:- 1.local, 2.Remote, 3.Files.
+
+
