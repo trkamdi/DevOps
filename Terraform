@@ -18,4 +18,8 @@ Task:- create IAM using terraform
 imp topic
 provisioners of Terraform:- 1.local, 2.Remote, 3.Files.
 
+07-10-24
+Terraform Modules:- A Terraform module is a collection of Terraform configuration files that are grouped together to represent a specific,
+unit of infrastructure. Modules can be used to define things like virtual machines, databases, or load balancers.
+
 
